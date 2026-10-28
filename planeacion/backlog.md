@@ -15,6 +15,7 @@ Criterios de aceptación:
 - **Dado** que abro el sitio, **cuando** pulso "Agenda" en el menú, **entonces** la página baja a la sección de agenda.
 - **Dado** que estoy en la agenda, **cuando** la leo, **entonces** veo al menos 3 actividades, cada una con su hora.
 
+**Issue:** #1
 ---
 
 ## HU-02 · Inscripción
@@ -27,6 +28,7 @@ Criterios de aceptación:
 - **Dado** que estoy en la sección de inscripción, **cuando** la leo, **entonces** veo el cupo máximo y los requisitos.
 - **Dado** que quiero inscribirme, **cuando** pulso el botón de inscripción, **entonces** se abre un correo (`mailto:`) o un chat de WhatsApp (`https://wa.me/...`).
 
+**Issue:** #2
 ---
 
 ## HU-03 · Ubicación
@@ -35,5 +37,11 @@ Criterios de aceptación:
 **para** llegar al evento sin perderme.
 
 Criterios de aceptación:
+
+
+- **Dado** que el visitante usa el menú de navegación, **cuando** hace clic en "Ubicación", **entonces** la página se desplaza hasta la sección `#ubicacion`.
+- **Dado** que el visitante está viendo la sección Ubicación desde un celular, **cuando** consulta la dirección y el enlace al mapa, **entonces** ambos se ven completos y se pueden usar sin desplazarse horizontalmente.
+
+**Issue:** #3
 
 <!-- TODO: escribe al menos 2 criterios con el formato Dado / cuando / entonces -->
